@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .input{
+       @apply border-2 border-pink-500 bg-pink-200  py-3 px-4 placeholder:text-slate-800 w-full text-[0.9rem]
+    }
+}
